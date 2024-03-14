@@ -21,7 +21,6 @@
     summary,
     article {
       background-color: var(--black);
-      color: var(--gray);
       padding: 10px 20px;
       transition: 500ms;
     }
@@ -57,9 +56,6 @@
         &::after {
           content: url("../../../../../assets/icons/chevron-up.svg");
         }
-
-        background-color: var(--primary);
-        border-radius: 7px 7px 0 0 !important;
       }
     }
     &:not([open]) {

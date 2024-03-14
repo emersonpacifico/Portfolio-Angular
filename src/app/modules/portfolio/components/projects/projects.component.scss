@@ -1,0 +1,56 @@
+:host {
+  padding: 25px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--black-02);
+
+  h2 {
+    text-align: center;
+    margin: 0 0 25px 0;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+    li {
+      flex: 20%;
+      max-width: 100%;
+
+      button {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        cursor: pointer;
+
+        background: var(--primary);
+        border: 1.5px solid var(--white);
+        border-radius: 7px;
+        transition: 0.5s;
+        &:hover {
+          background: var(--bt-2-01);
+        }
+
+        img {
+          height: 100%;
+          width: 200px;
+        }
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    ul {
+      li {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

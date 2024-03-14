@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.container-project {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
 @media (max-width: 750px) {
   .container {
     width: 100%;

@@ -17,7 +17,7 @@ export class ExperiencesComponent {
         strong: 'Analista de Sistemas - UMC/2024: ',
         p: 'Recem Formado',
       },
-      text: '<p>Formado em Análise e Desenvolvimento de Sistemas pela Universidade de Mogi das Cruzes UMC</p>',
+      text: '<p>Formado em Análise e Desenvolvimento de Sistemas pela Universidade de Mogi das Cruzes - UMC</p>',
     },
 
     {
